@@ -1,20 +1,23 @@
 export default function AboutPage() {
   return (
     <main className="flex h-full w-full bg-white">
-      <div className="justify-top flex items-center">
+      <div className="flex pt-8">
         <section className="bg-white dark:bg-gray-900">
-          <img
-            className="m-auto h-48"
+          <div className=""> 
+            <img
+            className="m-auto w-1/3"
             src="/images/logo.png"
             alt="The Committee"
-          />
+            />
+          </div>
+      
           <div className="mx-auto  py-8 px-4 text-center lg:py-16 lg:px-12">
             <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
               Planting seeds for Chritian marriage
             </h1>
             <p className="mb-8 text-lg font-normal text-gray-500 dark:text-gray-400 sm:px-16 lg:text-xl xl:px-48">
               The Committee is a community of Christians who love Jesus, love
-              our friends, and love the gift of marriage. We believe we're meant
+              our friends, an hid love the gift of marriage. We believe we're meant
               to be hands and feet in helping our single brothers and sisters
               find their spouse.
             </p>
@@ -53,7 +56,7 @@ export default function AboutPage() {
                   </p>
                   <a
                     href="/waitlist"
-                    className="inline-flex items-center rounded-lg border border-gray-200 bg-white py-2 px-4 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700"
+                    className="inline-flex items-center rounded-lg border border-gray-200 bg-indigo-300 py-2 px-4 text-sm font-medium text-gray-900 hover:bg-indigo-600 hover:text-white focus:z-10 focus:text-blue-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700"
                   >
                     Join the waitlist{" "}
                     <svg
